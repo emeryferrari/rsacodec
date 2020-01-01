@@ -1,7 +1,7 @@
 package javax.emeryferrari.rsacodec;
 import java.security.*;
 import javax.crypto.*;
-public class Codec {
+public class RSACodec {
 	public static final byte[] encrypt(byte[] data, PublicKey key) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
 		Cipher cipher = Cipher.getInstance("RSA");
 		cipher.init(Cipher.ENCRYPT_MODE, key);
