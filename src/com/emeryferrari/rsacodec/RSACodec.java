@@ -1,4 +1,4 @@
-package javax.emeryferrari.rsacodec;
+package com.emeryferrari.rsacodec;
 import java.security.*;
 import javax.crypto.*;
 public class RSACodec {

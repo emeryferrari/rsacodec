@@ -1,4 +1,4 @@
-package javax.emeryferrari.rsacodec;
+package com.emeryferrari.rsacodec;
 import java.io.*;
 import java.nio.file.*;
 import java.security.*;

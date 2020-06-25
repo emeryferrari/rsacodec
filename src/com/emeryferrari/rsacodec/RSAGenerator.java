@@ -1,4 +1,4 @@
-package javax.emeryferrari.rsacodec;
+package com.emeryferrari.rsacodec;
 import java.security.*;
 public class RSAGenerator {
 	public static final KeyPair generateKeyPair(int keysize) throws NoSuchAlgorithmException {
